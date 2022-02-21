@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Books</title>
+    <style>
+        .red {
+            background-color: red;
+        }
+        li.royalblue {
+            background-color:royalblue;
+        }
+        li.gray {
+            background-color:gray;
+        }
+        li.rosybrown{
+            background-color:rosybrown;
+        }
+        li.whitesmoke {
+            background-color:whitesmoke;
+        }
+        li.gold {
+            background-color:gold;
+        }
+        li.green {
+            background-color:green;
+        }
+    </style>
+</head>
+
+<body>
+    <p> <h3>Only At ₹1299</h3></p>
+    <form>
+        <div>
+            <input type="submit" value="Buy Now"/>
+        </div>
+    </form>
+  
+   <h1>Hello Peeps!!</h1>
+   <h3> <p>Lets get into the Magic World✨</p></h3>
+   <h4> <p>Seven Sets of Books!</p></h4>
+    <ul>
+        <li class="red"><h2>Harry Potter and the Philosopher's Stone</h2> </li> 
+        <img src="../images/hp1.jg.jpg" width="250" height="200">
+        <nav>
+    
+                <li class="crucmb"> <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"><h4>About Phisopher's Stone⚡🧹</h4></a></li>
+        </nav>
+    
+
+        <li class="royalblue"><h2>Harry Potter and the Chamber of Secrets</h2></li>
+        <img src="../images/hp2.jpg" width="250" height="200">
+        <nav>
+    
+            <li class="crucmb"> <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets"><h4>About Chamber of Secrets⚡🧹</h4></a></li>
+        </nav>
+
+        <li class="gray"><h2>Harry Potter and the Prisoner of Azkaban </h2></li>
+        <img src="../images/hp3.jpg" width="250" height="200">
+        <nav>
+    
+            <li class="crucmb"> <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban"><h4>About Prisoner of Azkaban⚡🧹</h4></a></li>
+        </nav>
+
+        <li class="whitesmoke"><h2>Harry Potter and the Goblet of Fire</h2></li>
+        <img src="../images/hp4.jpg" width="250" height="200">
+        <nav>
+    
+            <li class="crucmb"> <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire"><h4>About Goblet of Fire⚡🧹 </h4></a></li>
+        </nav>
+
+        <li class="rosybrown"><h2>Harry Potter and the Order of Pheonix</h2></li>
+        <img src="../images/hp5.jpg" width="250" height="200">
+        <nav>
+    
+            <li class="crucmb"> <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix"><h4>About Order Of Pheonix⚡🧹</h4></a></li>
+        </nav>
+
+        <li class="gold"><h2>Harry Potter and the Half-Blood Prince</h2></li>
+        <img src="../images/hp6.jpg" width="250" height="200">
+        <nav>
+    
+            <li class="crucmb"> <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Half-Blood_Prince"><h4>About Half-Blood Prince⚡🧹</h4></a></li>
+        </nav>
+
+        <li class="green"><h2>Harry Potter and the Deathly Hallows</h2></li>
+        <img src="../images/hp7.jpg" width="250" height="200">
+        <nav>
+    
+            <li class="crucmb"> <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows"><h4>About Deathly Hallows⚡🧹</h4></a></li>
+        </nav>
+
+    </ul>
+    <p> <img alt="Books" src="../images/hp.jpg" width="1000" height="1000">
+    </p>
+    <div>
+        <p><h1>Harry Potter Book Set</h1></p>
+        <h2>Author :J.K.Rowling</h2> 
+        <a href="https://www.jkrowling.com/">J.K Rowling</a>
+      <p> <h3>"It's a Story about 'The Boy Who Lived' involving the greatness of Hogwarts
+         Magic and Fantasies and much more which will have you hooked through out Journey🔮..."</h3></p>
+    <p><h4>Buy the Book and Get lost in the Wizard World💫⭐</h4></p>
+    </div>
+    <div id="div01">Feedback..?</div>
+    <p>
+        <input title="Enter Your Feedback" type="text" id="txtName" onchange="myfun()"/>
+    </p>
+   
+    <script>
+        function myfun()
+        {
+            document.getElementById("div01").innerText=document.getElementById("txtName").value;
+            document.getElementById("div01").style.color='darkblue';
+            var output=document.getElementById('div01');
+            output.style.backgroundColor="whitesmoke";
+            output.style.border="3px solid black";
+        }
+    </script>
+</body>
+</html>
