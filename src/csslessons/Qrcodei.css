@@ -15,6 +15,16 @@
     background-repeat: no-repeat;
     background-position: center;
     
+}
+img{
+    border: radius 12px;
+}
+img{
+    display:block;
+    width: 80%;
+    max-width: 90%;
+    margin:1cm auto;
+    height: 50%;
 } 
 
 button{
