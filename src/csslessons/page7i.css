@@ -1,0 +1,29 @@
+h2{
+    background-color: crimson;
+    color: antiquewhite;
+}
+h3{
+    background-color: darkblue;
+    /* color: antiquewhite; */
+}
+h1,h3{
+    color:antiquewhite;
+}
+ul li{
+    color: darkred;
+} 
+ ul>li{
+    color: blueviolet;
+} 
+li{
+    color:chartreuse;
+} 
+.item{
+    color:pink;
+}
+#list-item{
+    color:orangered;
+}
+input[type="email"]{
+    background-color:cyan;
+}

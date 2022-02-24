@@ -1,0 +1,28 @@
+div{
+    width:250px;
+    height:500px;
+    background-color:white;
+    background-image: url(../../images/qr.jpg);
+    margin:100px auto; 
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} 
+button{
+    background-color: lightskyblue;
+    
+}
+button:hover{
+    color:purple;
+}
+button:active{
+ color:darkorange;
+}
+p{
+    color: lightgrey;
+}
+
+body{
+    background-color: lightgrey;
+}

@@ -1,0 +1,35 @@
+div{
+    width:500px;
+    height:500px;
+    border: 10px solid firebrick;
+    color:aquamarine;
+    background-image:url(../../images/Virat-Kohli.jpg);
+    margin:100px auto; 
+    background-size: 200px;
+}
+#div1{
+    width:500px;
+    height:500px;
+    border: 10px solid firebrick;
+    color:aquamarine;
+    background-image:url(../../images/Virat-Kohli.jpg);
+    margin:100px auto;
+    background-size: 200px;
+}
+#div2{
+    width:500px;
+    height:500px;
+    border: 10px solid firebrick;
+    color:aquamarine;
+    background-image:url(../../images/Virat-Kohli.jpg);
+    margin:100px auto;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: antiquewhite;
+}

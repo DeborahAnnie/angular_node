@@ -1,0 +1,75 @@
+/* .box{
+    width: 10px;
+    height: 5px;
+    background-color: darkolivegreen;
+} */
+
+    div{
+    width: 450px;
+    height: 400px;
+    background-color:white;
+     background-image: url(../../images/qr.jpg);
+    margin:100px auto;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} 
+/* #div1{
+    width:800px;
+    height:500px;
+    background-color:darkkhaki;
+    margin:100px auto;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} */
+p{
+    color: lightgrey;
+}
+button{
+    background-color: lightskyblue;
+}
+button:hover{
+    color:purple;
+}
+button:active{
+ color:darkorange;
+}
+
+
+    /* input[name="goButton"]{
+        background: lightskyblue;
+    } */
+
+    
+
+    
+        
+
+    
+
+/* #div1{
+    width:500px;
+    height:500px;
+    border: 10px solid firebrick;
+    color:aquamarine;
+    background-image:url(../../images/QR\ code.jpg);
+    margin:100px auto;
+    background-size: 200px;
+}
+#div2{
+    width:500px;
+    height:500px;
+    border: 10px solid firebrick;
+    color:aquamarine;
+    background-image:url(../../images/Virat-Kohli.jpg);
+    margin:100px auto;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */ 
+body{
+    background-color: lightgrey;
+}

@@ -1,0 +1,47 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: darkolivegreen;
+    position: relative;
+    animation-name: anim2;
+    animation-duration: 4s;
+}
+@keyframes anim{
+    0%{
+        left:0;
+        top:0;
+        background-color: cadetblue;
+    }
+    100%{
+        left: 500px;
+        top:0;
+        background-color: burlywood;
+    }
+}
+@keyframes anim2{
+    0%{
+        left:0;
+        top:0;
+        background-color: cadetblue;
+    }
+    25%{
+        left: 500px;
+        top:0;
+        background-color: burlywood;
+    }
+    50%{
+        left:500px;
+        top:500px;
+        background-color:brown;
+    }
+    75%{
+        left:0px;
+        top:500px;
+        background-color:chartreuse;
+    }
+    100%{
+        left:0;
+        top:0;
+        background-color: cadetblue;
+    }
+}
