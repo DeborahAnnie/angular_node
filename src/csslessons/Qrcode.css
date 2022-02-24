@@ -8,13 +8,24 @@
     width: 450px;
     height: 400px;
     background-color:white;
-     background-image: url(../../images/qr.jpg);
+     /* background-image: url(../../images/qr.jpg); */
     margin:100px auto;
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
     
 } 
+img{
+    border: radius 12px;
+}
+img{
+    display:block;
+    width: 85%;
+    max-width: 90%;
+    margin:1cm auto;
+    height: 40%;
+}
+
 /* #div1{
     width:800px;
     height:500px;

@@ -1,14 +1,22 @@
-div{
-    width:250px;
+
+
+/* div{
+    width: 70px;
+    height: 60px;
+    background-image: url(../../images/qr.jpg);
+    
+    } */
+    div{
+    width:300px;
     height:500px;
     background-color:white;
-    background-image: url(../../images/qr.jpg);
     margin:100px auto; 
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
     
 } 
+
 button{
     background-color: lightskyblue;
     
