@@ -91,13 +91,13 @@ body{
     margin: 10px 0;
 }
 .chat{
-    color:hsl(229, 57%, 11%);
+    color:hsl(229, 57%, 11%); 
     font-weight:700;
     font-size: 32px;
     padding:10px 40px;
     background-color: #fff;
     border-radius: 10px 10px 0px 10px;
-    position:fixed;
+    position:fixed; 
     top: 150px;
     right: 500px;
     z-index:1;
@@ -107,7 +107,7 @@ body{
     display:flex;
     width: 0;
     height: 0;
-    position: absolute;
+    position:absolute;
     top:50%;
     border-top: solid 50px #fff;
     border-left: solid 50px transparent;
