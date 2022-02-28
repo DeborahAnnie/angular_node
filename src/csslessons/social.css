@@ -1,0 +1,209 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+ :root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+body {
+    font-family: 'Spartan', sans-serif;
+    background-image: url(../social-proof-section-master/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left 10vw top 0vh;
+    min-height: 100vh;
+}
+
+.top-content {
+    text-align: center;
+    max-width: 370px;
+    margin: 2rem auto;
+}
+
+.top-content p {
+    color: var(--Very-Dark-Magenta);
+    padding-bottom: 1rem;
+}
+
+h1 {
+    color: var(--Very-Dark-Magenta);
+    padding-bottom: 1rem;
+}
+
+.stars {
+    max-width: 370px;
+    margin: 2rem auto;
+}
+
+.stars ul {
+    list-style: none;
+    text-align: center;
+}
+
+.stars ul li {
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: var(--Light-Grayish-Magenta);
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+}
+
+
+
+
+.reviews {
+    max-width: 370px;
+    margin: 2rem auto;
+}
+
+.reviews ul {
+    border-radius: 10px;
+    color: var(--Very-Dark-Magenta);
+}
+
+.reviews ul li {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--Light-Grayish-Magenta);
+    line-height: 1.5rem;
+}
+
+.reviews ul li:last-of-type {
+    margin-bottom: 0rem;
+}
+
+.reviews ul li .p2 {
+    font-weight: 400;
+    text-align: left;
+    padding: 1.5rem;
+    padding-top: 1rem;
+}
+
+.images {
+    border-radius: 50%;
+    padding: 1rem;
+    padding-top: 1rem;
+    max-width: 80px;
+}
+
+.reviews ul li .name p {
+    color: var(--Soft-Pink);
+    text-align: left;
+} 
+
+.information {
+    display: flex;
+}
+
+.name {
+    padding-top: 1.3rem;
+}
+
+.attribution {
+    padding-bottom: 20px;
+} 
+
+@media(min-width: 1200px) {
+    .first-content {
+        display: flex;
+        margin: 5rem auto;
+        margin-bottom: 3.5rem;
+        justify-content: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-content {
+        max-width: 400px;
+        min-width: 400px;
+        text-align: left;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .stars {
+        max-width: none;
+        margin: 2rem 5rem;
+        margin-right: 0rem;
+    }
+    .container .first-content .stars {
+        margin: 0rem;
+        padding-left: 6.7rem;
+    }
+    .container .first-content .top-content {
+        margin: 0rem;
+        margin-right: 0rem;
+    }
+    .stars ul li {
+        margin: 1rem 0rem;
+        padding: 1.5rem 2rem;
+        display: flex;
+    }
+    .stars ul .one {
+        margin: 0;
+        width: 500px;
+        margin-right: 1rem;
+    }
+    .stars ul .two {
+        margin-left: 5rem;
+        width: 500px;
+        margin-right: 1rem;
+    }
+    .stars ul .three {
+        margin-left: 10rem;
+        width: 500px;
+    }
+    .stars ul img {
+        padding-right: 5px;
+    }
+    .reviews {
+        max-width: none;
+        margin: 2rem 10rem;
+    }
+    .stars ul li p {
+        padding-left: 2rem;
+    }
+    .reviews ul li {
+        max-width: 370px;
+    }
+    .reviews ul .irene {
+        margin-left: 25rem;
+        margin-top: -15rem;
+    }
+    .reviews ul .anne {
+        margin-left: 50rem;
+        margin-top: -15rem;
+    }
+    .reviews ul {
+        max-width: 1200px;
+    }
+    .reviews {
+        width: 1170px;
+        margin: 2rem auto;
+        margin-top: 0rem;
+    }
+    body {
+        background-image: url(../social-proof-section-master/images/bg-pattern-top-desktop.svg), url(../social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat no-repeat;
+        background-position: right 55vw bottom 65vh, left 50vw top 40vh;
+        min-height: 100vh;
+    }
+} 
