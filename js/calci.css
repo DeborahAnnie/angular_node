@@ -46,7 +46,7 @@
   }
   
   .bill-input {
-    background-image: url("../src/tip-calculator-app-main/images/icon-dollar.svg");
+    background-image: url("../js/tip-calculator-app-main/images/icon-dollar.svg");
     margin-bottom: 30px;
   }
   
@@ -83,7 +83,7 @@
   
   
   .people-input {
-    background-image: url("../src/tip-calculator-app-main/images/icon-person.svg");
+    background-image: url("../js/tip-calculator-app-main/images/icon-person.svg");
     margin-bottom: 1rem;
   }
   

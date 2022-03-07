@@ -1,0 +1,49 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    background-image: url(../angular_node/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    font-family: Georgia;
+    font-size: large;
+    color: khaki;
+}
+
+a:hover {
+    color: green;
+}
+
+
+h2 {
+    color: white;
+    text-align: center;
+}
+.table1{
+    display:table-cell;
+    width: 400;
+    background-color: blue;
+    border: 1px solid white;
+    border-spacing: 5px;
+}
+.table2{
+    display:table-cell;
+    width: 300;
+    background-image: linear-gradient(blueviolet,hotpink);  
+    border: 1px solid white;
+    border-spacing: 5px;
+}
+.table3{
+    display:table-cell;
+    width: 300;
+    background-color: hotpink;
+    border: 1px solid white;
+    border-spacing: 5px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: table-row;
+    color:cornsilk;
+}
