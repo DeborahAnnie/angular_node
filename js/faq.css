@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .main {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+  }
+  
+  .faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    width: 50%;
+  }
+  
+  .text {
+    border-bottom: 1px solid grey;
+    font-size: 12px !important;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+  
+  .answer {
+    display: none;
+    margin-bottom: 5%;
+  }
+  
+  button {
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  button:hover {
+    color: hsl(14, 88%, 65%);
+  }
+  
+  .images {
+    width: 50%;
+    padding-bottom: 2%;
+    position: relative;
+  }
+  .imagesOne {
+    width: 100%;
+    height: 100%;
+    background-image: url("../src/faq-accordion-card-main/images/illustration-woman-online-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: -60px;
+    background-position-y: 70px;
+    background-size: 85%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .imagesOne img {
+    position: absolute;
+    top: 35%;
+    left: -26%;
+  }
+  
+  .imagesTwo {
+    width: 100%;
+    height: 100%;
+    background-image: url("../src/faq-accordion-card-main/images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 195%;
+    background-position-y: -280px;
+    background-position-x: -575px;
+    position: absolute;
+  }
+  
+  .imagesTwo img,
+  .imagesThree img {
+    display: none;
+  }
+  
+  .imgArrow {
+    transform: rotate(180deg);
+  }
+  
+  .bold {
+    font-weight: bolder;
+  }
+  
+  @media only screen and (max-width: 1440px) {
+    .imagesOne {
+      background-size: 102%;
+    }
+  
+    .imagesTwo {
+      background-size: 200%;
+      background-position-y: -180px;
+      background-position-x: -395px;
+    }
+  
+    .imagesOne img {
+      top: 40%;
+      left: -38%;
+    }
+  }
+  
+ 
