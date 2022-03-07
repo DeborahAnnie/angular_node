@@ -76,6 +76,7 @@ button:active{
   }
   p{
       font-family: Helvetica, sans-serif;
+      font-size: 1.4rem;
       background-image:linear-gradient(white,royalblue);
   }
   
