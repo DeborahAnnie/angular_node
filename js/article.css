@@ -16,10 +16,10 @@ body{
 }
 
 .body{
-    width: 700px;
+    width: 800px;
     display: flex;
-    line-height: 20px;
-    border-radius: 10px;
+    line-height: 30px;
+    border-radius: 15px;
     background-color:white;
 }
 .body #mainImg{
