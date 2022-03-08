@@ -31,43 +31,43 @@ function refreshPrices(){
     if(range.value == 1){
 
         if(myCheckbox.checked == true){
-            price.textContent = `${(8 - (8 * .25)) * 12}`;
+            price.textContent = `${(10 - (10 * .25)) * 12}`;
         }else{
-            price.textContent = 8;
+            price.textContent = 10;
         }
 
-        pageViews.textContent = "10k";
+        pageViews.textContent = "50k";
 
     } 
 
     if(range.value == 2){
         
         if(myCheckbox.checked == true){
-            price.textContent = 108;
+            price.textContent =  `${(14 - (14 * .25)) * 12}`;
         }else{
-            price.textContent = 12;
-        }
-
-        pageViews.textContent = "50k";
-    }
-
-    if(range.value == 3){
-        
-        if(myCheckbox.checked == true){
-            price.textContent = 144;
-        }else{
-            price.textContent = 16;
+            price.textContent = 14;
         }
 
         pageViews.textContent = "100k";
     }
 
+    if(range.value == 3){
+        
+        if(myCheckbox.checked == true){
+            price.textContent = `${(20 - (20 * .25)) * 12}`;
+        }else{
+            price.textContent = 20;
+        }
+
+        pageViews.textContent = "250k";
+    }
+
     if(range.value == 4){
 
         if(myCheckbox.checked == true){
-            price.textContent = 216;
+            price.textContent =`${(28 - (28 * .25)) * 12}` ;
         }else{
-            price.textContent = 24;
+            price.textContent = 28;
         }
 
         pageViews.textContent = "500k";
@@ -77,9 +77,9 @@ function refreshPrices(){
     if(range.value == 5){
 
         if(myCheckbox.checked == true){
-            price.textContent = 306;
+            price.textContent =`${(40 - (40 * .25)) * 12}` ;
         }else{
-            price.textContent = 34;
+            price.textContent = 40;
         }
 
         pageViews.textContent = "1M";
