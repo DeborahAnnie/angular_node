@@ -39,36 +39,36 @@
     border-radius: 10px;
     box-shadow: 0px 0px 15px hsl(227, 25%, 85%);
     font-size: 15px;
-    color: hsl(225, 20%, 60%);
+    color: hwb(225 52% 32%);
     min-width: 500px;
     margin-top: 15px;
   }
-  .tarrif {
+  .one {
     display: flex;
     margin-bottom: 50px;
   }
-  .tarrif .page-views {
+  .one .page-views {
     text-transform: uppercase;
     flex: 1;
     align-self: center;
   }
-  .tarrif .price {
+  .one .price {
     flex: 2;
     display: flex;
     justify-content: flex-end;
     transition: all 0.5s;
   }
-  .tarrif .price span {
+  .one .price span {
     display: inline-block;
   }
-  .tarrif .price span:first-of-type,
-  .tarrif .price span:first-of-type span {
+  .one .price span:first-of-type,
+  .one .price span:first-of-type span {
     color: var(--main-color);
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
   }
-  .tarrif .price span:last-of-type {
+  .one .price span:last-of-type {
     font-size: 15px;
     align-self: center;
     margin-left: 5px;
@@ -171,6 +171,37 @@
     outline: none;
     align-self: center;
     font-size: 15px;
+  }
+  @media (max-width: 600px) {
+    .container {
+      min-width: 375px;
+    }
+    header {
+      margin-top: 70px;
+    }
+    aside {
+      min-width: 375px;
+      padding: 50px 30px;
+      margin-bottom: 50px;
+    }
+    .one .price span {
+      display: inline-block;
+    }
+    .one .price span:first-of-type,
+    .one .price span:first-of-type span {
+      color: var(--main-color);
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .start {
+      flex-direction: column;
+    }
+    .start ul {
+      align-self: center;
+    }
+    .start button {
+      margin-top: 30px;
+    }
   }
   
   
