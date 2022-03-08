@@ -47,7 +47,7 @@ img {
 .flex > div:last-child {
 	flex: 0.4;
 	margin-left: 20px;
-}
+} 
 
 button {
 	background-color: #fff;
