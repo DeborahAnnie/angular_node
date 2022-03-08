@@ -117,14 +117,13 @@ footer ul li {
 	margin-bottom: 20px;
 }
 
-.social-media {
+footer .social-media {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	
+	justify-content: center; 
 } 
-.circle {
-    border: 1px solid #fff;
+footer .social-media a{
+	border: 1px solid #fff;
     border-radius: 50%;
 	color: #fff;
 	display: inline-flex;
@@ -134,8 +133,8 @@ footer ul li {
 	height: 40px;
 	width: 40px;
 	text-decoration: none;
+	
 }
-
 footer p {
 	text-align: right;
 }
