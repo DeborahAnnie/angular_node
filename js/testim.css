@@ -116,14 +116,14 @@ html {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto;
-}
+} 
 .next::after {
 	background-image: url(../js/coding-bootcamp-testimonials-slider-master/images/icon-next.svg);
 }
 .prev::after {
 	background-image: url(../js/coding-bootcamp-testimonials-slider-master/images/icon-prev.svg);
 }
-@media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) {
 	.slide {
 		flex-direction: row;
 		text-align: left;
@@ -145,4 +145,4 @@ html {
 		transform: translate(0);
 		left: calc(100% - 400px);
 	}
-}
+} 
