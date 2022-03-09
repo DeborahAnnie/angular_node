@@ -59,12 +59,12 @@ header .header-top .logo h1 {
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     color: #ffffff;
-    text-decoration: none;
+     text-decoration: none; 
   }
   header .header-top nav ul li .contact {
     font-family: "Fraunces", serif;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: white;
+    color: black;
     border-radius: 2em;
     margin-right: 1em;
   }
