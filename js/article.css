@@ -144,3 +144,6 @@ body{
 	width: 40px;
 	text-decoration: none;
 } 
+.share li{
+    list-style: none;
+}

@@ -283,33 +283,6 @@ footer .link-us {
     padding: 1.5em;
     gap: 1em;
     margin-bottom: 1em;
-  }
-
-  /* @media (max-width:600px) {
-    header {
-      height: 100vh;
-  }
-  .icon-wrap {
-    display: flex; 
-  }
-  main article {
-    display: flex;
-   flex-direction: row;
-   width: 100%;
-  }
-  .article-footer .footer-box {
-    display: flex;
-  }
-  
-  .client-testimonials {
-    display: flex;
-  } */
-  
-  footer {
-    display: flex;
-   width: 100%;
-  }
-  }
-
+ }
 
 
