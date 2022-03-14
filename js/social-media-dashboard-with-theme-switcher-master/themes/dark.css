@@ -1,0 +1,65 @@
+body {
+    background: hsl(230, 17%, 14%);
+}
+
+.box-head {
+    background: hsl(232, 19%, 15%);
+}
+
+.mode-dark-light {
+    color: white;
+}
+
+.header {
+    color: white;
+}
+
+.card-foll {
+    background:  hsl(228, 28%, 20%);
+    transition: .3s;
+}
+
+.card-foll:hover {
+    background: rgb(53, 47, 47);
+}
+
+.total-followers {
+    color: white;
+}
+
+.recently__days {
+    color: #41A597;
+}
+
+.recently__days--red {
+    color: #BB5066;
+}
+
+.mode__selector {
+    background: #353957;
+}
+
+.content-overviews {
+    color: white;
+}
+
+.card-over {
+    background: #252B43;
+    transition: .3s;
+}
+
+.card-over:hover {
+    background: rgb(53, 47, 47);
+}
+
+.percent__value {
+    color: #42A494;
+}
+
+.type-view__text {
+    color: #838BB2;
+}
+
+.percent__value--red {
+    color: #BB5066;
+}

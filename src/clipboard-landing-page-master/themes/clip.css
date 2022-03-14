@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,200&family=Barlow+Semi+Condensed:ital,wght@1,300&family=Outfit:wght@200&family=Raleway:ital@1&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+}
+header {
+    align-items: center;
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 70px;
+}
+.intro {
+    padding:10px 0;
+    width:40%;
+    text-align: center;
+}
+.intro h2 {
+    padding: 5 px o;
+}
+.btn-action {
+    padding:20px 0;
+}
+.btn-action button {
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    color:#ffffff;
+    cursor: pointer;
+    margin: 0 10px;
+    outline: none;
+     padding: 10px 20px;
+
+}
+.btn-action button.ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 2px 2px 8px hsl(171, 66%, 44%);
+}
+.btn-action button.mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 2px 2px 8px hsl(233, 100%, 69%); 
+}
+.one {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.one h2 {
+    padding:15px 0;
+}
+.two {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 0;
+} 
+ .two img {
+    height: 90%;
+    width: 80%;
+} 
+ .two .features div {
+    margin-top: 30px;
+    width: 65%;
+} 
+.three {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.three img {
+    height: 110%;
+    margin: auto;
+    width: 80%;
+}
+
+.four .function {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    text-align: center;
+}
+.four .function div {
+    margin: 0 30px;
+    width:25%;
+}
+.four .support-company {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px;
+    padding: 0 100px;
+}
+.five {
+    margin: auto;
+    width:40%;
+    text-align: center;
+}
+footer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.foot .logo {
+    height: 50px;
+    margin: 0 70px;
+    width: 50px;
+} 
+.foot ul {
+    list-style: none;
+    max-width: 300px;
+}
+ul li {
+    display: inline-block;
+    margin: 5px 20px;
+}

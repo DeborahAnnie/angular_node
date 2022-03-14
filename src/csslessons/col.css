@@ -89,16 +89,7 @@
     margin-bottom: 30px;
   } 
   
-/* .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  } */
-   
-   @media (min-width: 992px) {
+ @media (min-width: 992px) {
     .container {
       display:flex;
       align-items: center;
@@ -122,5 +113,5 @@
   
     .card p {
       margin-bottom: 80px;
-    }  
-  
+    }   
+}

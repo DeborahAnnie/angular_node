@@ -121,9 +121,9 @@ header .header-top .logo h1 {
   }
   
  main article section a hr {
-    margin-top: -0.5em;
+    margin-top: -0.4em;
     border: none;
-    border-bottom: 10px solid hsl(7, 99%, 70%);
+    border-bottom: 5px solid hsl(7, 99%, 70%);
   }
   main article section a:hover > hr {
     border-bottom: 10px solid hsl(51, 100%, 49%) ;
@@ -285,4 +285,37 @@ footer .link-us {
     margin-bottom: 1em;
  }
 
+nav .hamburger{
+  display:none;
+}
+nav .hamburger:focus{
+  outline: none;
+}
 
+@media screen and (max-wdith:760px){
+  body{
+    text-align: center;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0;
+  }
+
+  nav .hamburger{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+  }
+
+  nav .hamburger.show .open{
+    display:none;
+  }
+  nav ul {
+		display: none;
+	}
+
+	
+} 
