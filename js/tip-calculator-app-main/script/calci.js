@@ -77,3 +77,4 @@ function reset () {
   peopleInputFun()
   tipCustom.value = ''
 }
+

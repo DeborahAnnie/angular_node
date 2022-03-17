@@ -17,11 +17,11 @@ function changeMode() {
         modeSelector.classList.add('mode--right');
     }
     else {
-        theme.href = 'themes/dark.css'
+        theme.href = 'themes/dark.css';
         modeSelector.classList.remove('mode--right');
     }
-    saveThemeLocalStorage(theme.href);
-    themeDark = !themeDark;
+     saveThemeLocalStorage(theme.href);
+     themeDark = !themeDark;
 }
 
 function saveThemeLocalStorage(theme) {

@@ -30,6 +30,9 @@ body {
 .recently__days {
     color: #5DB8A1;
 }
+.mode-dark-light{
+    color:black;
+}
 
 .recently__days--red {
     color: #BB5066;
@@ -62,4 +65,4 @@ body {
 
 .percent__value--red {
     color: #973c4e;
-} 
+}  

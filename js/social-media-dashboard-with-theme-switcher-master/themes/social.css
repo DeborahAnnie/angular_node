@@ -1,44 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,200&family=Barlow+Semi+Condensed:ital,wght@1,300&family=Inter&family=Outfit:wght@200&family=Raleway:ital@1&family=Rubik:ital,wght@1,300&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: Inter;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    display: flex;
     font-size: 14px;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .box-head {
     position: absolute;
-    top: 0;
+    height: 250px;
     left: 0;
     width: 100%;
-    height: 250px;
+    top: 0;
 }
 
 .container {
-    width: 1200px;
     margin: 0 auto;
-    padding: 20px;
     min-height: 90vh;
+    padding: 20px;
+    width: 1200px;
     z-index: 1;
 }
 
 .header {
-    width: 100%;
-    min-height: 80px;
     display: flex;
-    /* flex-flow: row wrap; */
     justify-content: space-between; 
-    /* align-items: flex-start; */
     font-size: 14px;
+    min-height: 80px;
+    width: 100%;
 }
 
 .title__text {
@@ -46,8 +44,8 @@ body {
     margin-bottom: 5px;
 }
 .title__subtext {
-    font-size: 1em;
-    color:  blue;
+    color:  hsl(228, 34%, 66%);
+    font-size: 1.5em;
 }
 .mode-dark-light {
     display: flex;
@@ -163,7 +161,6 @@ body {
     margin-right: 3px;
 }
 
-
 .content-overviews {
     font-size: 14px;
 }
@@ -215,7 +212,7 @@ body {
 }
 .percent__arrow {
     margin-right: 4px;
-}
+} 
 
 
  /* @media screen and (max-width: 1200px) {
