@@ -10,7 +10,7 @@ ul,li {
 
 header {
   height: 100vh;
-  background-image: url(../images/desktop/image-header.jpg);
+  background-image: url("../images/desktop/image-header.jpg");
   background-position: center;
   background-size: cover;
 } 
@@ -61,7 +61,7 @@ header .header-top .logo h1 {
     color: #ffffff;
      text-decoration: none; 
   }
-  header .header-top nav ul li .contact {
+  header .header-top nav ul li .btn {
     font-family: "Fraunces", serif;
     background-color: white;
     color: black;
@@ -285,12 +285,14 @@ footer .link-us {
     margin-bottom: 1em;
  }
 
-nav .hamburger{
+/* nav .hamburger{
   display:none;
 }
 nav .hamburger:focus{
   outline: none;
-}
+}  */
+
+
 
 @media screen and (max-wdith:760px){
   body{
@@ -317,5 +319,32 @@ nav .hamburger:focus{
 		display: none;
 	}
 
-	
+  nav ul.show {
+		background-color: var(--very-dark-violet);
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		padding-top: 30px;
+		margin: 0;
+		top: 70px;
+		left: 0;
+		width: 100vw;
+		height: calc(100vh - 70px);
+		z-index: 100;
+	}
+  nav ul li {
+		margin: 20px 0;
+	}
+
+	nav ul a {
+		color: #fff;
+	}
+  .btn-reverse {
+		border-color: #fff;
+		color: #fff;
+	}
+  header::before,
+	header::after {
+		display: none;
+	}
 } 
