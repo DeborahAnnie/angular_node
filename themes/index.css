@@ -23,23 +23,23 @@ h2 {
     text-align: center;
 }
 .column1 {
-    background-color: blue;
+    background-color: royalblue;
     border: 1px solid white;
     border-spacing: 50px;
     display:table-cell;
-    width: 400;
+     /* width: 400px;  */
     
 }
 .column2 {
     display:table-cell;
-    width: 300;
-    background-image: linear-gradient(blueviolet,hotpink);  
+    /* width: 300px;  */
+    background-image: linear-gradient(to left,royalblue,hotpink);  
     border: 1px solid white;
     border-spacing: 50px;
 }
 .column3 {
     display:table-cell;
-    width: 300;
+    /* width: 800px; */
     background-color: hotpink;
     border: 1px solid white;
     border-spacing: 50px;
@@ -51,7 +51,7 @@ h3 {
 }
 button {
     background-color:#ffffff;
-    box-shadow: 3px 4px 4px seashell;
+    box-shadow: 5px 4px 4px seashell;
     border-radius: 40px; 
     cursor: pointer;
     font-family: "Red Hat Display";
@@ -69,7 +69,7 @@ button {
 button:hover {
     background-color: transparent;
     border: 3px solid whitesmoke;
-    color:cyan;
+    color:beige;
 }
 button:active {
     color:darkorange;
@@ -79,7 +79,7 @@ button:active {
     margin-bottom: 5%;
   }
   p {
-    background-image:linear-gradient(royalblue,purple);
+    background-image:linear-gradient(royalblue,purple); 
     color: whitesmoke;
     font-family: Helvetica, sans-serif;
     font-size: 1.4rem;
