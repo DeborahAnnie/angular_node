@@ -8,14 +8,13 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="./themes/fylo.css">
-
     <title>Fylo landing page with dark theme and features grid</title>
 </head>
 
 <body>
     <header>
         <nav class="nav">
-            <a href="/" class="brand-logo"><img src="images/logo.svg" alt="Fylo" /></a>
+            <a href="#" class="brand-logo"><img src="images/logo.svg" alt="Fylo" /></a>
             <ul class="nav-items">
                 <li class="nav-link">
                     <a href="#">Features</a>
@@ -94,7 +93,7 @@
                     for live collaboration. No email attachments required.
                 </p>
                 <a class="desc-link" href="#"><span>See how Fylo works</span><img src="images/icon-arrow.svg"
-                        alt="" /></a>
+                        alt="arrow" /></a>
             </div>
         </section>
         <section class="testimonials">
@@ -149,10 +148,14 @@
                 be happy to help you
             </p>
             <form id="form">
-                <input type="email" placeholder="email@example.com" id="email" />
-                <input class="cta" type="submit" value="Get Started For Free" />
+                <div class="form-left">
+                    <input type="email" name="email" placeholder="email@example.com" id="email" />
+                    <small>Error</small>
+                </div>
+                <button>Get Started For Free</button>
             </form>
         </section>
+
     </main>
     <footer>
         <div class="footer-logo">
@@ -183,6 +186,7 @@
             <i class="fab fa-instagram"></i>
         </div>
     </footer>
+    <script src="./script/fylo.js"></script>
 </body>
 
 </html>

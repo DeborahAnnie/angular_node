@@ -97,13 +97,13 @@ input:focus {
 	position: absolute;
 	top: 50%;
 	right: 15px;
-	transform: translateY(-50%);
+	/* transform: translateY(-50%); */
 	height: 20px;
 }
 
 .form-control.error img {
 	opacity: 1;
-}
+} 
 
 button {
 	background-color: hsl(154, 59%, 51%);
@@ -141,7 +141,7 @@ button:active {
 
 small {
 	display: block;
-	color: #bbb;
+	color: #bbb; 
 	font-size: 11px;
 	font-weight: 500;
 	margin-top: 15px;

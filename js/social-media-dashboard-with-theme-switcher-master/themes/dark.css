@@ -31,10 +31,6 @@
     color: #41A597;
 }
 
-.recently__days--red {
-    color: #BB5066;
-}
-
 .mode__selector {
     background: #353957;
 }
@@ -53,13 +49,9 @@
 }
 
 .percent__value {
-    color: #42A494;
+    color: limegreen;
 }
 
 .type-view__text {
-    color: #838BB2;
+    color:  hsl(228, 34%, 66%)
 }
-
-.percent__value--red {
-    color: #BB5066;
-} 

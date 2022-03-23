@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("../profile-card-component-main/images/bg-pattern-bottom.svg"); 
+    background-image: url("..images/bg-pattern-bottom.svg"); 
     font-family: "Kumbh sans", sans-serif;
     font-size: 18px;
     color: hsl(229, 23%, 23%);
@@ -28,7 +28,7 @@ body {
 .container-1 {
     height: 150px;
     width: 350px;
-    background: url(./images/bg-pattern-card.svg);
+    background: url("../images/bg-pattern-card.svg");
     background-size: cover;
 }
 .img-sec {

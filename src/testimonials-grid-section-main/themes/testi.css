@@ -60,7 +60,7 @@ main{
 }
 .card-1 {
     background-color: hsl(263,55%,52%);
-    background-image: url(../images/bg-pattern-quotation.svg);
+    background-image: url('../images/bg-pattern-quotation.svg');
     background-repeat: no-repeat;
     background-position: 60% 0;
     grid-column: 1/3;

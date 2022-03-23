@@ -15,7 +15,7 @@ body {
 }
 
 .card-foll {
-    background: #F0F3FA;
+    background: white;
     transition: .3s;
 }
 
@@ -28,14 +28,10 @@ body {
 }
 
 .recently__days {
-    color: #5DB8A1;
+    color: hsl(163, 72%, 41%);
 }
 .mode-dark-light{
     color:black;
-}
-
-.recently__days--red {
-    color: #BB5066;
 }
 
 .mode__selector {
@@ -48,7 +44,7 @@ body {
 
 .card-over {
     background: #F0F3FA;
-    transition: .3s;
+    transition: .4s;
 }
 
 .card-over:hover {
@@ -56,13 +52,9 @@ body {
 }
 
 .percent__value {
-    color: #42A494;
+    color:hsl(228, 34%, 66%)
 }
 
 .type-view__text {
     color: hsl(228, 12%, 44%);
 }
-
-.percent__value--red {
-    color: #973c4e;
-}  

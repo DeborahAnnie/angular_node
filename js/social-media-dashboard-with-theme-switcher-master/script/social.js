@@ -6,7 +6,7 @@ eventsListener();
 
 function eventsListener() {
     document.addEventListener('DOMContentLoaded', () => {
-        chargeThemeLocalStorage();
+        changeThemeLocalStorage();
     })
     modeSelector.addEventListener('click', changeMode);
 }
@@ -20,9 +20,9 @@ function changeMode() {
         theme.href = 'themes/dark.css';
         modeSelector.classList.remove('mode--right');
     }
-     saveThemeLocalStorage(theme.href);
-     themeDark = !themeDark;
-}
+  saveThemeLocalStorage(theme.href);
+   themeDark = !themeDark;
+ }
 
 function saveThemeLocalStorage(theme) {
     localStorage.setItem('themeSocial', theme);

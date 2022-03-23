@@ -12,18 +12,18 @@
     --White: hsl(0, 0%, 100%);
 }
 
-/* .attribution {
+.attribution {
     font-size: 11px;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-} */
+} 
 
 body {
     font-family: 'Spartan', sans-serif;
-    background-image: url(../social-proof-section-master/images/bg-pattern-top-desktop.svg);
+    background-image: url('../images/bg-pattern-top-desktop.svg');
     background-repeat: no-repeat;
     background-position: left 10vw top 0vh;
     min-height: 100vh;
@@ -201,7 +201,7 @@ h1 {
         margin-top: 0rem;
     }
     body {
-        background-image: url(../social-proof-section-master/images/bg-pattern-top-desktop.svg), url(../social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+        background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
         background-repeat: no-repeat no-repeat;
         background-position: right 55vw bottom 65vh, left 50vw top 40vh;
         min-height: 100vh;

@@ -3,7 +3,7 @@ html {
 	font-family: 'Inter', sans-serif;
 	font-size: 32px;
 }
-* {
+ * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -107,7 +107,7 @@ html {
 .next {
 	right: 0;
 }
-.next::after,
+/*.next::after,
 .prev::after {
 	content: '';
 	position: absolute;
@@ -145,4 +145,4 @@ html {
 		transform: translate(0);
 		left: calc(100% - 400px);
 	}
-} 
+}  */

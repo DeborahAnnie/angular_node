@@ -1,4 +1,4 @@
-
+/*
 const next = document.querySelector('.next')
 const prev = document.querySelector('.prev')
 const slides = document.querySelectorAll('.slide')
@@ -28,3 +28,4 @@ function prevSlide () {
 }
 next.addEventListener('click', nextSlide)
 prev.addEventListener('click', prevSlide)
+*/

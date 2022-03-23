@@ -10,6 +10,7 @@ body {
     background-color: hsl(210, 46%, 95%);
     display: flex;
     font-size: 13px;
+    font-family: 'Manrope', sans-serif;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
@@ -22,9 +23,6 @@ body {
     line-height: 30px;
     width: 800px;
 }
-.body #mainImg {
-    border-radius: 10px 0px 0px 10px;
-} 
 
 .text {
     align-items: center;
@@ -61,7 +59,7 @@ body {
 
 .text .person .imgs {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     width: 40%;
 }
 
@@ -83,66 +81,62 @@ body {
 }
 
 .share {
-    padding: 3%;
+    align-items: center;
     background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
     color:  hsl(212, 23%, 69%);
     display: flex;
-    width: 45%;
-    align-items: center;
-    border-radius: 10px;
+    display: none;
     justify-content:space-around;
+    left: 60%;
+    padding: 3%;
     position: absolute;
     top: 50%;
-    left: 60%;
-    display: none;
+    width: 45%;
 }
 
 .share .share1 {
-    display: flex;
     align-items: center;
-    width: 50%;
+    display: flex;
     justify-content: space-evenly;
+    width: 50%;
 }
 
 .share .triangle {
-    width: 20px;
-    height: 20px;
     background-color: hsl(217, 19%, 35%);
+    height: 20px;
+    left: 45%;
     position: absolute;
     top: 75%;
-    left: 35%;
-    transform: rotateY(0deg) rotate(45deg);
-}
+    transform: rotateY(0deg) rotate(45deg); 
+    width: 20px;
+} 
 
 .person #btnClose {
     background-color: hsl(210, 46%, 95%);
     border-radius: 50px;
-    padding: 8px;
-    margin-right: 5%;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    outline: none;
-    color: white;
     border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block; 
     display: none;
-}
-
-.share #btnClose1 {
-    display: none;
+    margin-right: 5%;
+    outline: none;
+    padding: 8px;
+    text-decoration: none; 
 }
 
 .share li a {
-	border: 1px transparent;
+	align-items: center;
 	border-radius: 50%;
+	/* border: 1px transparent; */
 	color: hsl(223, 87%, 63%); 
 	display: inline-flex; 
-	align-items: center;
-	justify-content: center;
 	font-size: 18px;
 	height: 40px;
-	width: 40px;
+	justify-content: center;
 	text-decoration: none;
+	width: 40px;
 } 
 .share li{
     list-style: none;

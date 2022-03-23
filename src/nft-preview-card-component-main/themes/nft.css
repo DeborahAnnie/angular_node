@@ -128,7 +128,7 @@
   
   .card:hover .mainImg {
     background: linear-gradient(to top, #3204fdba, #9907facc),
-      url(../nft-preview-card-component-main/images/image-equilibrium.jpg) no-repeat top center;
+      url("../images/image-equilibrium.jpg") no-repeat top center;
   }
   
   h3:hover,
