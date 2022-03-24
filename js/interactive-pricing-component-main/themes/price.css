@@ -1,60 +1,62 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,200&family=Barlow+Semi+Condensed:ital,wght@1,300&family=Inter&family=Kumbh+Sans:wght@300&family=Outfit:wght@200&family=Raleway:ital@1&family=Rubik:ital,wght@1,300&display=swap");
+ :root {
+  --main-color: hsl(227, 35%, 25%);
+}
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   body {
-    font-family: "Manrope", sans-serif;
-    display: flex;
-    justify-content: center;
     background-image: url("../images/bg-pattern.svg");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    justify-content: center;
   }
-  :root {
-    --main-color: hsl(227, 35%, 25%);
-  }
+  
   .container {
     max-width: 1400px;
-  }
-  header {
-    margin-top: 70px;
-    padding: 50px 0;
-    text-align: center;
+  } 
+ header {
     background-image: url("../images/pattern-circles.svg");
-    background-repeat: no-repeat;
     background-position: center;
-  }
-  header h1 {
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    padding: 50px 0; 
+    text-align: center;
+  } 
+ header h1 {
     color: var(--main-color);
     font-size: 30px;
-    margin-bottom: 15px;
+     margin-bottom: 15px; 
   }
   header p {
     color: hsl(225, 20%, 60%);
     font-size: 15px;
-  }
+  } 
   aside {
     background-color: hsl(0, 0%, 100%);
-    padding: 50px 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px hsl(227, 25%, 85%);
+    color: hwb(225 52% 32%); 
     font-size: 15px;
-    color: hwb(225 52% 32%);
-    min-width: 500px;
     margin-top: 15px;
-  }
+    min-width: 500px;
+    padding: 50px 30px;
+  }  
   .one {
     display: flex;
     margin-bottom: 50px;
   }
-  .one .page-views {
-    text-transform: uppercase;
-    flex: 1;
+ .one .page-views {
     align-self: center;
+    flex: 1; 
+    text-transform: uppercase;
   }
-  .one .price {
-    flex: 2;
+ .one .price {
     display: flex;
+    flex: 2;
     justify-content: flex-end;
     transition: all 0.5s;
   }
@@ -65,38 +67,38 @@
   .one .price span:first-of-type span {
     color: var(--main-color);
     font-size: 40px;
-    line-height: 40px;
     font-weight: 800;
+    line-height: 40px;
   } 
   .one .price span:last-of-type {
-    font-size: 15px;
     align-self: center;
+    font-size: 15px;
     margin-left: 5px;
-  }
+  } 
   .progress .progress-bar {
-    position: relative;
     height: 20px;
+    position: relative;
   }
   .progress-bar input[type="range"] {
     width: 100%;
   }
   .myrange {
-    appearance: none;
+    appearance: none;  
     background-color: hsl(174, 77%, 80%);
     height: 10px;
-    border-radius: 5px;
+    /* border-radius: 17px; */
     outline: none;
   }
   .myrange::-webkit-slider-thumb{
-    -webkit-appearance: none; 
-    width: 35px;
-    height: 35px;
-    background-image: url("../images/icon-slider.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    -webkit-appearance: none;  
     background-color: hsl(174, 86%, 45%);
+    background-image: url("../images/icon-slider.svg");
+    background-position: 50% 50%; 
+    background-repeat: no-repeat;
     border-radius: 50%;
     cursor: pointer;
+    height: 35px;
+    width: 35px;
   }
   .myrange::-webkit-slider-thumb:hover {
     box-shadow: 0px 0px 10px hsl(174, 86%, 45%);
@@ -108,7 +110,7 @@
     display: flex;
     justify-content: flex-end;
   }
-  .progress .monthly .discount {
+ .progress .monthly .discount {
     padding: 5px 5px;
     background-color: hsl(14, 92%, 95%);
     color: hsl(15, 100%, 70%);
@@ -148,7 +150,7 @@
   } 
 
   hr {
-    border: 1px solid hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 6%, 93%);
     margin: 30px 0;
   }
   .start {
@@ -159,8 +161,8 @@
     list-style-image: url("../images/icon-check.svg");
     margin-left: 20px;
     line-height: 25px;
-  }
-  .start button {
+  } 
+   .start button {
     background-color: var(--main-color);
     color: white;
     border: none;
@@ -171,7 +173,7 @@
     outline: none;
     align-self: center;
     font-size: 15px;
-  }
+  } 
   @media (max-width: 600px) {
     .container {
       min-width: 375px;
@@ -204,4 +206,4 @@
     }
   }
   
-  
+   

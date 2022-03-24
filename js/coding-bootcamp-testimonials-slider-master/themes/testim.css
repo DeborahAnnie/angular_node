@@ -4,74 +4,74 @@ html {
 	font-size: 32px;
 }
  * {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 .container {
-	min-height: 100vh;
-	width: 100%;
-	display: flex;
 	align-items: center;
-	justify-content: center;
-	padding: 30px;
 	background-image: url("../images/pattern-curve.svg");
 	background-position: center bottom;
-	background-size: contain;
 	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 30px;
+	width: 100%;
 }
 .slider {
 	display: block;
 	height: 100%;
-	width: 100%;
-	max-width: 850px;
 	margin: 0 auto;
+	max-width: 850px;
 	position: relative;
+	width: 100%;
 }
 .slide {
-	width: 100%;
+	align-items: center;
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: center;
-	align-items: center;
 	text-align: center;
+	width: 100%;
 }
 .slide-img {
-	width: 100%;
-	margin: 0 auto;
-	height: 100%;
-	padding: 30px;
 	background-image: url("../images/pattern-bg.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
+	height: 100%;
+	margin: 0 auto;
+	padding: 30px;
+	width: 100%;
 }
 .slide-text {
-	padding-top: 30px;
-	display: flex;
 	align-items: center;
-	justify-content: center;
-	flex-direction: column;
 	background-image: url("../images/pattern-quotes.svg");
+	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 80px;
-	background-position: top center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 30px;
 }
 .testimonial-text {
+	color: hsl(240, 38%, 20%);
 	font-weight: 200;
 	font-size: .7rem;
-	color: hsl(240, 38%, 20%);
 }
 .author-text {
-	margin-top: 20px;
 	color: hsl(240, 38%, 20%);
 	font-size: .5rem;
 	font-weight: 700;
+	margin-top: 20px;
 }
 .author-text span {
 	color: hsl(240, 18%, 77%);
-	font-weight: 500;
 	display: block;
+	font-weight: 500;
 }
 .slide-img img {
 	height: 90%;
@@ -79,27 +79,27 @@ html {
 }
 .prev,
 .next {
+	cursor: pointer;
 	display: inline-block;
-	width: 50%;
 	height: 100%;
 	position: absolute;
-	cursor: pointer;
+	width: 50%;
 } 
 .prev:hover,
 .next:hover {
 	background-color: antiquewhite;
 }
 .buttons {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	top: 315px;
-	width: 90px;
-	height: 45px;
-	box-shadow: -20px 12px 20px 0px hsla(240, 18%, 77%, 0.52);
-	border-radius: 50px;
 	background-color: white;
+	border-radius: 50px;
+	box-shadow: -20px 12px 20px 0px hsla(240, 18%, 77%, 0.52);
+	height: 45px;
+	left: 50%;
 	overflow: hidden;
+	position: absolute;
+	top: 315px;
+	transform: translateX(-50%);
+	width: 90px;
 }
 .prev {
 	left: 0;
@@ -107,15 +107,15 @@ html {
 .next {
 	right: 0;
 }
-/*.next::after,
+.next::after,
 .prev::after {
-	content: '';
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
 	background-position: center;
+	background-repeat: no-repeat;
 	background-size: auto;
+	content: '';
+	height: 100%;
+	position: absolute;
+	width: 100%;
 } 
 .next::after {
 	background-image: url("../images/icon-next.svg");
@@ -129,9 +129,9 @@ html {
 		text-align: left;
 	}
 	.slide-text {
+		align-items: flex-start;
 		background-position: 10% top;
 		background-size: 100px;
-		align-items: flex-start;
 	}
 	.slide-img {
 		margin-left: -100px;
@@ -141,8 +141,8 @@ html {
 		width: 400px;
 	}
 	.buttons {
+		left: calc(100% - 400px);
 		top: 415px;
 		transform: translate(0);
-		left: calc(100% - 400px);
 	}
-}  */
+}  

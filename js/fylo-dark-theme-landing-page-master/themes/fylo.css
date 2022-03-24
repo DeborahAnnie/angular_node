@@ -120,7 +120,7 @@ main {
   .feature {
     text-align: center;
   }
-.feature h3 {
+ .feature h3 {
     margin: 25px 0 12px 0;
   }
   
@@ -267,10 +267,12 @@ main {
   background: linear-gradient(to right, var(--cyan), var(--blue));
   border-radius: 50px;
   border: none;
+  display: inline;
   color: var(--white);
   margin-left: 20px;
   padding: 20px 0;
-  width: 280px; 
+  width: 250px;
+  height: 50px; 
   }
 
  footer {
